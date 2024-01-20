@@ -70,7 +70,7 @@
     <main class="container mx-auto">
 
         <!-- featured section starts here  -->
-        <section class="mt-2 md:mt-10">
+        <section class="my-10 md:mt-10">
             
             <!-- section title  -->
             <div class="max-w-[90%] mx-auto text-center space-y-2">
@@ -122,39 +122,111 @@
         </section>
 
         <!-- Great tea section starts  -->
-        <section class="mt-2 md:mt-10 flex flex-col-reverse lg:flex-row gap-6">
+        <section class="my-10 px-4 md:mt-10 flex flex-col-reverse lg:flex-row justify-center items-center gap-6">
             <!--great tea gallery section starts here -->
-            <div class="grid grid-cols-2 grid-rows-3 gap-5">
-                <div class="col-span-1 row-span-1 bg-gradient-to-l from-[rgba(255,0,0,0)] to-[#ff8838]">
+            <div class="grid grid-cols-2 grid-rows-3 gap-5 flex-1">
+                <div class="col-span-1 row-span-1 bg-gradient-to-l from-[rgba(255,0,0,0)] to-[#ff8838] opacity-30 rounded-md">
                 </div>
-                <div class="bg-[#E6A6231A] h-[355px] pt-14 pl-7 pr-7 pb-7 col-span-1 row-span-2">
+                <div class="bg-[#E6A6231A] h-[355px] pt-14 pl-7 pr-7 pb-7 col-span-1 row-span-2 rounded-md">
                     <img src="images/fresh-1.png" alt="" class="object-cover">
                 </div>
-                <div class="bg-[#5776391A] h-[355px] pt-14 pl-9 pr-7 pb-7 col-span-1 row-span-2">
+                <div class="bg-[#5776391A] h-[355px] pt-14 pl-9 pr-7 pb-7 col-span-1 row-span-2 rounded-md">
                     <img src="images/fresh-2.png" alt="" class="object-cover">
                 </div>
-                <div class="col-span-1 row-span-1 bg-gradient-to-r from-[#D9D9D9] to-[rgba(255, 255, 255, 0.00)]">
+                <div class="col-span-1 row-span-1 bg-gradient-to-r from-[#D9D9D9] to-[rgba(255, 255, 255, 0.00)] opacity-30 rounded-md">
                 </div>
             </div>
 
             <!-- great tea content section  -->
-            <div class="space-y-3 flex-1">
-                <div class="mx-auto text-center space-y-2">
-                    <h3 class="text-2xl md:text-5xl font-extrabold">Our Featured Products</h3>
+            <div class="space-y-4 flex-1">
+                <div>
+                    <h3 class="mb-4 text-2xl md:text-5xl font-extrabold">Our Featured Products</h3>
                     <p class="text-gray">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                 </div> 
+                <div>
+                    <h3 class="mb-4 text-xl md:text-3xl font-bold">
+                        Unique Taste 
+                    </h3>
+                    <p class="text-gray">
+                        A Unique and different style from other teapots gives a luxurious and minimalist impression
+                    </p>
+                </div>
+                <div>
+                    <h3 class="mb-4 text-xl md:text-3xl font-bold">
+                        Premium Quality
+                    </h3>
+                    <p class="text-gray">
+                        Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+                </div>
+
+
             </div>
+        </section>
+
+        <!-- super client section starts here  -->
+        <section class="my-10 mx-4 lg:p-16 md:mt-10 bg-gradient-to-l from-[#F00] to-[#FF8938] rounded-md">
+            <div class="p-10 flex gap-8 flex-col lg:flex-row items-center">
+                <!-- super client text  -->
+                <div class="pr-10 flex-1">
+                    <div class="space-y-6">
+                        <h3 class="text-2xl md:text-5xl font-extrabold text-[#F4F4F4]">Meet Our Super Clients</h3>
+
+                        <p class="text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg   bg-white"><span class="bg-clip-text text-transparent bg-gradient-to-l from-[#F00] to-[#FF8938]">Show All</span></button>
+                    </div> 
+                </div>
+                
+                <!-- super client revies  -->
+
+                <div class="flex-1">
+                    <!-- next review  -->
+                    <div class="z-10 opacity-30 relative p-10 bg-white rounded-md">
+                        <img src="images/client.png" alt="client" 
+                        class="absolute -ml-16 -mt-16 border-4 border-white rounded-full bg-white"> 
+                        <div class="space-y-2">
+                            <p class="text-gray">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h4 class="font-bold">Ilham Yuda</h4>
+                            <h4 class="font-medium">Businessman</h4>
+                        </div>
+                    </div>
+
+                    <!-- current review  -->
+                    <div class="z-20 absolute -ml-4 lg:-ml-16 -mt-20 p-10 bg-white rounded-md max-w-[345px] lg:max-w-[430px]">
+                        <img src="images/client.png" alt="client" 
+                        class="absolute -ml-16 -mt-16 border-4 border-white rounded-full bg-white"> 
+                        <div class="space-y-2">
+                            <p class="text-gray">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h4 class="font-bold">Ilham Yuda</h4>
+                            <h4 class="font-medium">Businessman</h4>
+                        </div>
+                        <div class="flex justify-end"><img src="images/circles.png" alt=""></div>
+                    </div>
+
+                    <!-- prefious review  -->
+                    <div class="mt-20 z-10 opacity-20 relative p-10 bg-white rounded-md">
+                        <img src="images/client.png" alt="client" 
+                        class="absolute -ml-16 -mt-16 border-4 border-white rounded-full bg-white"> 
+                        <div class="space-y-2">
+                            <p class="text-gray">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h4 class="font-bold">Ilham Yuda</h4>
+                            <h4 class="font-medium">Businessman</h4>
+                        </div>
+                    </div>
+                </div>
 
 
-            <!-- content section starts here  -->
+            </div>
+        </section>
+
+        <!-- news and events sections starts here  -->
+        <section class="my-10 px-4 md:mt-10">
 
         </section>
 
-        <section class="mt-2 md:mt-10">
-            
-        </section>
     </main>
-    <footer>
+    <footer class="bg-gradient-to-l from-red-200 to-red-50 max-w-full h-28 opacity-50">
 
     </footer>
 </body>
